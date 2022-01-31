@@ -3,9 +3,9 @@
 <form>
     <h3>Log in</h3>
     <label>User Name</label>
-    <input id="userName" name="userName" [(ngModel)]="userName" autofocus="autofocus"/>
+    <input id="userName" name="userName" [(ngModel)]="appUser.userName" autofocus="autofocus"/>
     <label>Password</label>
-    <input id="password" name="password" [(ngModel)]="password" type="password"/>
+    <input id="password" name="password" [(ngModel)]="appUser.password" type="password"/>
     <div>
         <button (click)="login()">Login</button>
     </div>
