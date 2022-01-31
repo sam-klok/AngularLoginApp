@@ -1,0 +1,15 @@
+<p>login works!</p>
+
+<form>
+    <h3>Log in</h3>
+    <label>User Name</label>
+    <input id="userName" name="userName" [(ngModel)]="userName" autofocus="autofocus"/>
+    <label>Password</label>
+    <input id="password" name="password" [(ngModel)]="password" type="password"/>
+    <div>
+        <button (click)="login()">Login</button>
+    </div>
+
+
+
+</form>
